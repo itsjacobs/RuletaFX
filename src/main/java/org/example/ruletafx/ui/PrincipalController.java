@@ -35,7 +35,7 @@ public class PrincipalController {
         pintarTablero();
     }
     @FXML
-    private GridPane tableroGrid;1
+    private GridPane tableroGrid;
 
     private void setApuestasEnabled(boolean enabled) {
         btnApostarNumero.setDisable(!enabled);
